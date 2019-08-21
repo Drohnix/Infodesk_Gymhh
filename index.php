@@ -1,9 +1,9 @@
 <?php
 
-if (!include("db/db_connect.php");) {
+if (!include("php/db_connect.php");) {
 	echo "including db_connect error";
 }
-if (!include("db/db_interact.php");) {
+if (!include("php/db_interact.php");) {
 	echo "including db_interact error";
 }
 
